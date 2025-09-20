@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup32's Popup Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #5D90F0; /* changed from green */
+            color: white;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            max-width: 700px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        .popup-type {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .popup-type img {
+            max-width: 100px;
+            height: auto;
+        }
+        .popup-type p {
+            margin-top: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            color: #5D90F0;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Popup32's Popup Types</h1>
+    </header>
+    <main>
+        <div class="popup-type">
+            <img src="Critical.png" alt="Critical">
+            <p>Critical</p>
+        </div>
+        <div class="popup-type">
+            <img src="Exclamation.png" alt="Exclamation">
+            <p>Exclamation</p>
+        </div>
+        <div class="popup-type">
+            <img src="Information.png" alt="Information">
+            <p>Information</p>
+        </div>
+        <div class="popup-type">
+            <img src="Question.png" alt="Question">
+            <p>Question</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Popup32 Project.
+    </footer>
+</body>
+</html>
